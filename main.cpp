@@ -35,6 +35,6 @@ int main() {
     days = 31;
   }
   
-  std::cout << "The month of " << month << " of year " << year << " has " << days << " days." << std::endl;
+  std::cout << "The " << month << " month of year " << year << " has " << days << " days." << std::endl;
   return 0;
 }
