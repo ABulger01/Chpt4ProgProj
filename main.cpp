@@ -19,7 +19,10 @@ return 1;
 
   int days;
   // Determine the number of days in the month
-  switch (month)
+  if ( month == 2 )
+    days = (year % 4 == 0 && year % 100 != 0) || year % 400 == 0 ? 29: 28;
+    
+    
     
   
 }
