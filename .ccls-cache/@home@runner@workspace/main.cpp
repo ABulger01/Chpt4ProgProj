@@ -15,5 +15,11 @@ return 1;
   if ( (year % 4 == 0 && year % 100 != 0) || year % 400 == 0 )
     std::cout << year << " is a leap year. February has 29 days." << std::endl;
   else
-    std::cout << year << " is not a leap year. "
+    std::cout << year << " is not a leap year. February has 28 days." << std::endl;
+
+  int days;
+  // Determine the number of days in the month
+  switch (month)
+    
+  
 }
