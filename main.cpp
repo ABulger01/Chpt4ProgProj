@@ -7,7 +7,7 @@ int main() {
   int distance; 
   double rate = 0.0;  // Initialize rate
 
-  // Get the weight of the packages
+  // Get user inpu for the weight of the packages
   cout << "Enter the weight of the package: ";
   cin >> weight;
   
